@@ -1,0 +1,233 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   background:white;
+   font-family: serif;
+}  
+
+.navbar {
+    position: sticky;
+    box-shadow:  0px 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    top: 0; 
+}
+
+nav {
+    background-color:white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 40px;
+    padding: 5px;
+    margin-left: 30px;
+    font-weight: bolder;
+    float: left;
+    color: rgb(204, 89, 133);
+}
+
+.navbar1 {
+    float: right;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 45px;
+    gap: 70px;
+    list-style-type: none;
+    display: flex;
+}
+
+div li a {
+   color: black;
+}
+
+div li a:hover {
+    text-decoration: solid;
+    color: rgb(204, 89, 133);
+}
+
+/* hal1 */
+.image-container {
+    width: 100%;
+    margin: auto;
+}
+
+.image-container img {
+    width: 100%;
+    height: 600px;
+}
+
+.text-overlay {
+    position: absolute;
+    margin-top: 60px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:  rgb(204, 89, 133); 
+    text-align: center; 
+}
+
+.text-overlay h1 {
+    font-size: 100px;
+}
+
+/* diary */
+.diary1 {
+    margin-left: 20px;
+    margin-top: 35px;
+}
+
+h2 {
+    font-family: cursive;
+    font-size: 30px;
+    color: rgb(204, 89, 133);
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.prgf1 {
+    font-size: 17px;
+    text-align: justify;
+    display: flex;
+    gap: 15px;
+}
+
+p {
+    max-width: 25%;
+    margin: 25px;
+    margin-top: 60px;
+}
+
+.prgf1 img {
+    width: 150px;
+    height: 200px;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.gambar {
+    background-color:  rgb(204, 89, 133);
+    width: 100%;
+    margin-top: 30px;
+}
+
+.artikel2 {
+    margin: 30px;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.artikel3 {
+    margin: 30px;
+    font-size: 17px;
+    text-align: justify;
+}
+
+/* scene */
+.scene img {
+    width: 80%;
+    height: 500px;
+    margin-left: 135px;
+    margin-top: 60px;
+    margin-bottom: 35px;
+}
+
+/* diary2 */
+.diary2 {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-family: cursive;
+    font-size: 30px;
+    color: rgb(204, 89, 133);
+}
+
+h5 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+/* menu */
+.menu {
+    display: flex;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background:  rgb(204, 89, 133);
+}
+
+.menu-card {
+    background: white;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 15px;
+    width: 230px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+}
+
+.menu-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.menu-card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.menu-card h3 {
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+
+.menu1 {
+    display: flex;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    background:  rgb(204, 89, 133);
+}
+
+
+
+
+
+
+/* footer */
+.footer-links {
+    font-size: 16px;
+    text-align: center;
+    min-height: 140px;
+    background-color:  rgb(204, 89, 133);
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer-links a:hover {
+    color: rgb(255, 216, 231);
+}
+
+
+

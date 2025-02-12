@@ -1,0 +1,149 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f8f8;
+}
+
+.novel {
+    height: 90px;
+}
+
+.logo a { 
+    font-size: 35px;
+    font-weight: bolder;
+    float: left;
+    margin-left: 20px ;
+    font-family: Arial, sans-serif;
+    color: #ffff;
+}
+
+/* navbar */
+.menu {
+    margin-right:25px;
+    float: right;
+    font-size: 17px;
+}
+
+nav {
+    width: 100%;
+    line-height: 90px;
+    background: rgb(204, 89, 133);
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+div ul li a {
+    color: #ffff;
+    font-weight: light;
+    text-align: center;
+}
+
+.bahasa {
+    font-size: 17px;
+    color: #ffff;
+    width: 100px;
+    float: right;
+    margin-right: 15px;
+}
+
+/* formulir */
+.container {
+    max-width: 850px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color:  rgb(204, 89, 133);
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, select, textarea {
+    width: 96%;
+    padding: 10px;
+    margin-bottom: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+textarea {
+    height: 120px;
+}
+
+.prgf {
+    font-size: 13px;
+    color: #7e7e7e;
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+.prgf1 {
+    font-size: 13px;
+    color: #7e7e7e;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.prgf2 {
+    font-size: 13px;
+    color: #7e7e7e;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.prgf3 {
+    font-size: 13px;
+    color: #7e7e7e;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+button {
+    width: 150px;
+    padding: 12px;
+    background-color:  rgb(204, 89, 133);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:  rgb(204, 115, 149);
+}
+
+
+
+#deskripsi {
+    margin-top: 20px;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: none;
+    width: 80%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
